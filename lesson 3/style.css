@@ -25,7 +25,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 138px 0 0;
+    padding: 138px 0;
 }
 .up_title{
     font-size: 72px;
@@ -36,25 +36,23 @@ body{
     margin-bottom: 14px;
 }
 .up_button{
-    width: 420px;
-    height: 70px;
-    text-align: center;
-    margin-bottom: 180px;
-    margin-left: 440px;
+    display: block;
+    margin:0 auto;
+    padding: 10px 120px;
     border-radius: 5px;
     font-weight: bold;
     font-size: 36px;
     line-height: 49px;
-    text-align: center;
     color: #162C38;
 }
 .preview_content-down{
     background-color:  rgba(26, 110, 136, 0.71);
-    padding: 133px 274px;
+    padding: 133px 0;
 }
 .down_text{
+    max-width: 726px;
     font-size: 36px;
     line-height: 49px;
-    text-align: center;
+    margin: 0 auto;
     color: #FFFFFF;
 }
