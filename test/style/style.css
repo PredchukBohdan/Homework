@@ -1,0 +1,322 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.homepage{
+    padding: 60px 116px 60px 130px;
+    max-height: 794px;  
+}
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.homepage__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homepage__offer{
+    max-width: 419px;
+    width: 100%;
+}
+.homepage__title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #1C1C1C;
+    margin-bottom: 39.5px;
+}
+.homepage__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 59.25px;
+}
+.homepage__point{
+    display: flex;
+    align-items: center;
+}
+.homepage__line{
+    width: 16px;
+    height: 3.95px;
+    background: #87938F;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+.homepage__text{
+    font-size: 18px;
+    line-height: 150%;
+    color: #1C1C1C;
+}
+.button{
+    width: 244px;
+    padding: 15.8px 0;
+    background: #BCCDC3;
+    border: none;
+    border-radius: 27px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.homepage__content{
+    width: 614px;
+    height: 674px ;
+}
+.homepage__photo{
+    position: absolute;
+    top: 91.39px;
+    right: 209px;
+    z-index: 1;
+    
+}
+.homepage__picture{
+    position: absolute;
+    right: 131px;
+    top: 60.24px;
+    z-index: 0;
+}
+.homepage__content > img:nth-child(3){
+    position: absolute;
+    top: 112.83px;
+    right: 487px;
+    z-index: 3;
+}
+.homepage__content > img:nth-child(4){
+    position: absolute;
+    top: 564px;
+    right: 228.34px;
+    z-index: 3;
+}
+.homepage__content > img:nth-child(5){
+    position: absolute;
+    top: 567px;
+    right: 644.66px;
+    z-index: 3;
+}
+.homepage__bg > img:nth-child(1){
+    position: absolute;
+    top: 678.46px;
+    right: 95px;
+}
+.homepage__bg > img:nth-child(2){
+    position: absolute;
+    top: 727.83px;
+    right: 273px;
+}
+.homepage__bg > img:nth-child(3){
+    position: absolute;
+    top: 365.4px;
+    right: 95px;
+}
+.homepage__bg > img:nth-child(4){
+    position: absolute;
+    top: 270.6px;
+    right: 101px;
+}
+.homepage__bg > img:nth-child(5){
+    position: absolute;
+    top: 528.35px;
+    left: 418px;
+}
+.homepage__bg > img:nth-child(6){
+    position: absolute;
+    top: 192.6px;
+    left: 71px;
+}
+.homepage__bg > img:nth-child(7){
+    position: absolute;
+    top: 3.95px;
+    right: 490px;
+}
+.homepage__bg > img:nth-child(8){
+    position: absolute;
+    top: 47.4px;
+    right: 770px;
+}
+.homepage__bg > img:nth-child(9){
+    position: absolute;
+    top: 346px;
+    right: 838px;
+}
+.homepage__bg > img:nth-child(10){
+    position: absolute;
+    bottom: 175px;
+    left: 79px;
+}
+.homepage__bg > img:nth-child(11){
+    position: absolute;
+    bottom: 112.6px;
+    left: 344px;
+}
+.homepage__bg > img:nth-child(12){
+    position: absolute;
+    top: 25px;
+    left: 142px;
+}
+.homepage__bg > img:nth-child(13){
+    position: absolute;
+    top: 195.6px;
+    left: 720px;
+}
+.homepage__bg > img:nth-child(14){
+    position: absolute;
+    top: 418px;
+    right: 92px;
+}
+.homepage__bg > img:nth-child(15){
+    position: absolute;
+    top: 104.5px;
+    left: 318px;
+}
+.homepage__bg > img:nth-child(16){
+    position: absolute;
+    bottom: 187px;
+    left: 485px;
+}
+
+@media (max-width: 375px){
+
+    .container{
+        max-width: 350px;
+        max-width: 704px;
+        margin: 0 auto;
+    }
+    .homepage{
+        padding: 40px 12px;
+        max-height: 704px;
+    }
+    .homepage__main{
+        display: flex;
+        flex-direction: column;
+    }
+    .homepage__offer{
+        max-width: 350px;
+        width: 100%;
+    }
+    .homepage__title{
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 140%;
+        text-transform: capitalize;
+        color: #1C1C1C;
+    }
+    .homepage__list{
+        margin-bottom: 40px;
+    }
+    .homepage__text{
+        font-size: 16px;
+        line-height: 150%;
+    }
+    .homepage__right>.homepage__point{
+        margin-right: 34px;
+        max-width: 126px;
+    }
+    .homepage__right>.homepage__point:last-of-type > .homepage__line{
+        margin-right: 8px;
+        width: 27px;
+        margin-bottom: 24px;
+    }
+    .homepage__buttons{
+        text-align: center;
+    }
+    .button{
+        width: 350px;
+        font-weight: 400;
+    }
+    .homepage__photo{
+        width: 304px;
+        height: 250px;
+        position: absolute;
+        top: 441px;
+        left: 13px;
+        z-index: 1;
+        
+    }
+    .homepage__picture{
+        width: 275px;
+        height: 285px;
+        position: absolute;
+        right: 13px;
+        top: 428px;
+        z-index: 0;
+    }
+    .homepage__content > img:nth-child(3){
+        width: 29px;
+        height: 38px;
+        top: 612px;
+        right: 55px;
+    }
+    .homepage__content > img:nth-child(4){
+        width: 23px;
+        height: 23px;
+        top: 435px;
+        right: 191px;
+    }
+    .homepage__content > img:nth-child(5){
+        width: 30px;
+        height: 27px;
+        top: 652px;
+        left: 78px;
+    }
+    .homepage__bg > img:nth-child(1){
+        top: 663px;
+        right: 35px;
+    }
+    .homepage__bg > img:nth-child(2){
+        display: none;
+    }
+    .homepage__bg > img:nth-child(3){
+        top: 290px;
+        right: 324px;
+    }
+    .homepage__bg > img:nth-child(4){
+        display: none;
+    }
+    .homepage__bg > img:nth-child(5){
+        display: none;
+    }
+    .homepage__bg > img:nth-child(6){
+        top: 151px;
+        right: 269px;
+    }
+    .homepage__bg > img:nth-child(7){
+        top: 24px;
+        right: 12px;
+    }
+    .homepage__bg > img:nth-child(8){
+        top: 39px;
+        left: 268px;
+    }
+    .homepage__bg > img:nth-child(9){
+        top: 270px;
+        right: 30px;
+    }
+    .homepage__bg > img:nth-child(10){
+        display: none;
+    }
+    .homepage__bg > img:nth-child(11){
+        display: none;
+    }
+    .homepage__bg > img:nth-child(12){
+        top: 8px;
+        left: 103px;
+    }
+    .homepage__bg > img:nth-child(13){
+        display: none;
+    }
+    .homepage__bg > img:nth-child(14){
+        top: 570px;
+        right: 2px;
+    }
+    .homepage__bg > img:nth-child(15){
+        top: 113px;
+        left: 313px;
+    }
+    .homepage__bg > img:nth-child(16){
+        bottom: 0;
+        top: 412px;
+        left: 49px;
+    }
+}
