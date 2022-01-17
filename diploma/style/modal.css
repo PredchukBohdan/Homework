@@ -1,0 +1,225 @@
+.modal-overlay{
+    display: none;
+    position: fixed;
+    background:rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+}
+.modal{
+    padding: 25px 0 60px;
+    max-width: 900px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.modal__content{
+    position: relative;
+}
+.modal__info{
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+}
+.modal__img{
+    max-height: 350px;
+    height: 100%;
+}
+.modal__title{
+    position: absolute;
+    top: 34px;
+    left: 156px;
+    color: orangered;
+    max-width: 567px;
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 25px;
+}
+.modal__text{
+    font-family: 'Lato';
+    font-size: 23px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.modal__subtitle{
+    font-family: 'Lora';
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 21px;
+}
+.modal__ul{
+    list-style: square;
+    text-align: start;
+    font-family: 'Lato';
+    font-size: 23px;
+    line-height: 35px;
+}
+.modal__close{
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+@media (max-width: 1200px){
+    .modal{
+        padding: 25px 0 60px;
+        max-width: 700px;
+    }
+    .modal__title{
+        top: 20px;
+        left: 64px;
+    }
+    .modal__text{
+        font-size: 21px;
+        line-height: 24px;
+    }
+    .modal__ul{
+        max-width: 500px;
+        margin: 0 auto;
+        font-size: 22px;
+        line-height: 33px;
+    }
+}
+@media (max-width: 800px){
+    .modal{
+        max-width: 600px;
+        top: 68%;
+    }
+    .modal__img{
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .modal__title {
+        top: 14px;
+        max-width: 450px;
+        left: 74px;
+        font-size: 23px;
+    }
+    .modal__text {
+        font-size: 20px;
+        line-height: 21px;
+    }
+    .modal__ul {
+        max-width: 400px;
+        margin: 0 auto;
+        font-size: 21px;
+        line-height: 27px;
+    }
+}
+@media (max-width: 550px){
+    .modal {
+        max-width: 450px;
+        top: 68%;
+    }
+    .modal__title {
+        top: 10px;
+        max-width: 350px;
+        left: 48px;
+        font-size: 17px;
+    }
+    .modal__text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .modal__subtitle{
+        margin-bottom: 28px;
+        font-size: 18px;
+    }
+    .modal__ul{
+        max-width: 350px;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 425px){
+    .modal{
+        max-width: 375px;
+    }
+    .modal__title {
+        top: 10px;
+        max-width: 300px;
+        left: 39px;
+        font-size: 15px;
+    }
+    .modal__text {
+        font-size: 16px;
+        line-height: 16px;
+        max-width: 300px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .modal__ul {
+        max-width: 300px;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .modal__close{
+        font-size: 20px;
+    }
+}
+@media (max-width: 360px){
+    .modal{
+        top: 50%;
+        max-width: 300px;
+    }
+    .modal__title {
+        top: 3px;
+        max-width: 200px;
+        left: 53px;
+        font-size: 13px;
+    }
+    .modal__text{
+        font-size: 15px;
+        line-height: 15px;
+        max-width: 250px;
+    }
+    .modal__subtitle{
+        font-size: 15px;
+        margin-bottom: 19px;
+    }
+    .modal__ul{
+        max-width: 225px;
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .modal__close{
+        font-size: 18px;
+        top: -9px;
+    }
+}
+@media (max-width: 320px){
+    .modal{
+        top: 48%;
+        max-width: 280px;
+    }
+    .modal__title {
+        top: 9px;
+        max-width: 200px;
+        left: 41px;
+        font-size: 12px;
+    }
+    .modal__text {
+        font-size: 14px;
+        line-height: 14px;
+        max-width: 230px;
+    }
+    .modal__ul {
+        max-width: 200px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
